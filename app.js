@@ -9,7 +9,7 @@ wss.on('connection', (ws) => {
         // ws.send(message);
         wss.clients.forEach((client) => {
             client.send(message);
-        });
+        }); 
     });
 
     // setTimeout(() =>{
